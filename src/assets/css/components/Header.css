@@ -1,0 +1,42 @@
+.navbar {
+    top: 0;
+    width: 100%;
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 100px;
+  }
+
+  .logoSite{
+    font-size: var(--fonte-tamanho-logo);
+    font-family: var(--fonte-familia-titulo-pagina); 
+    padding: 0 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logoSite img{
+    padding: 0 10px;
+    width: 80px;
+    margin-top: auto;
+  }
+  
+  .nav-botoes {
+    display: flex;
+    gap: 80px; 
+    padding: 0 80px;
+    font-size: var(--fonte-tamanho-botao);
+    color: #131313;
+  }
+
+  .nav-link {
+    color: #131313;
+    text-decoration: none;
+    font-family: var(--fonte-familia-titulo-pagina);    
+  }
+  
+  .nav-link:hover {
+    color: var(--cor-contraste-escuro);
+  }

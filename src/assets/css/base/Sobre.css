@@ -1,0 +1,33 @@
+.caosobreIMG{
+    width: 300px;
+    padding: 0 0 0 50px; 
+}
+
+.titulo-sobre {
+    font-family: var(--fonte-familia-titulo-pagina);
+    font-size: 4rem;
+    padding-left: 2rem;
+    top: 0;
+    display: flex;
+    margin: 0;
+}
+
+.cartaoflex{
+    display: flex;
+    max-width: none;
+}
+
+.cartaop p{
+    text-align: left;
+    margin: 10px 0;
+    text-indent: 10px;
+}
+
+.cartaoIMG{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.caosobreIMG{
+padding: 50px;
+}

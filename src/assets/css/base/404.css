@@ -1,0 +1,20 @@
+.catiorrinho-imagem {
+  width: 100%;
+  max-width: 30rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.naoencontrado-texto {
+  font-size: 1.75rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.naoencontrado-link {
+  color: var(--cor-primaria);
+}
+
+.main404{
+min-height: 83.6vh;
+}
